@@ -1,14 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
 
-    <channel lang="en-us">
-        <title>This call is now being recorded</title>
-        <link>18thletter.github.com</link>
+    <channel>
+        <title>Call is now being recorded</title>
+        <link>http://18thletter.github.com/podcast</link>
+        <itunes:subtitle>A weekly call between Ray and Nessa</itunes:subtitle>
+        <itunes:author>Raymund Lew, Janessa Vandenberghe</itunes:author>
         <description>A weekly call between Ray and Nessa</description>
+        <itunes:summary>A weekly call between Ray and Nessa</itunes:summary>
+        <itunes:owner>
+            <itunes:name>Raymund Lew</itunes:name>
+            <itunes:email>raymund.lew@gmail.com</itunes:email>
+        </itunes:owner>
+        <itunes:image href="http://18thletter.github.io/public/images/podcastimage.png" />
+        <itunes:category text="Society &amp; Culture" />
+        <itunes:category text="Spirituality" />
+        <itunes:duration>02:31:04</itunes:duration>
+        <language>en-us</language>
+        <image>
+            <title>Call is now being recorded</title>
+            <link>http://18thletter.github.com/podcast</link>
+            <url>http://18thletter.github.io/public/images/podcastimage.png</url>
+        </image>
         <item>
             <title>What does marriage mean?</title>
             <link>https://drive.google.com/open?id=0B03kiGijxZGrZ09PcFJrZVM1U00</link>
-            <description>Ray and Nessa discuss asking questions at work, and what marriage means.</description>
+            <description>"Our phone calls aren't going to be that long!" turned into a 2.5 hour conversation covering thoughts on asking for help at work, becoming Bruce Lee, and "why marry?".</description>
             <pubDate>February 1, 2016</pubDate>
         </item>
     </channel>
