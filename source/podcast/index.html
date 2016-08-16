@@ -1,0 +1,31 @@
+---
+layout: default
+rss: feed.xml
+---
+
+<section class="post-list">
+
+  <header class="post-header intro">
+    <div class="intro-in">
+      <h1 class="post-title">{{ site.podcast.title }}</h1>
+      <h2 class="intro-subtitle">{{ site.podcast.subtitle }}</h2>
+      <p class="container">{{ site.podcast.description }}</p>
+    </div>
+  </header>
+
+  {% for podcast in site.podcasts %}
+    <article class="post-item container">
+      <header>
+        <span class="post-meta">{{ podcast.date | date: "%b %-d, %Y" }}</span>
+        <h1 class="post-title">{{ podcast.title }}</h1>
+      </header>
+
+      <p>{{ podcast.subtitle }}</p>
+      <audio controls>
+        <source src="{{ podcast.link }}" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
+    </article>
+  {% endfor %}
+
+</section>

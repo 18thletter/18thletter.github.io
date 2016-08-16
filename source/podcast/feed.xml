@@ -1,0 +1,48 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+
+    <channel>
+        <title>{{ site.podcast.title }}</title>
+        <link>{{ site.podcast.link }}</link>
+        <language>{{ site.podcast.language }}</language>
+        <itunes:subtitle>{{ site.podcast.subtitle }}</itunes:subtitle>
+        <itunes:author>{{ site.podcast.author }}</itunes:author>
+        <description>{{ site.podcast.description }}</description>
+        <itunes:summary>{{ site.podcast.description}}</itunes:summary>
+        <itunes:owner>
+            <itunes:name>{{ site.podcast.owner.name }}</itunes:name>
+            <itunes:email>{{ site.podcast.owner.email }}</itunes:email>
+        </itunes:owner>
+        <itunes:image href="{{ site.podcast.image }}" />
+        {% for category in site.podcast.categories %}
+          <itunes:category text="{{ category }}" />
+        {% endfor %}
+        <itunes:explicit>{{ site.podcast.explicit }}</itunes:explicit>
+        <image>
+            <title>{{ site.podcast.title }}</title>
+            <link>{{ site.podcast.link }}</link>
+            <url>{{ site.podcast.image }}</url>
+        </image>
+
+        {% for podcast in site.podcasts %}
+        <item>
+            <title>{{ podcast.title }}</title>
+            <link>{{ podcast.link }}</link>
+            <itunes:author>{{ site.podcast.author }}</itunes:author>
+            <itunes:image href="{{ site.podcast.image }}" />
+            <itunes:subtitle>{{ podcast.subtitle }}</itunes:subtitle>
+            <description>{{ podcast.description}}</description>
+            <itunes:summary>{{ podcast.description }}</itunes:summary>
+            <pubDate>{{ podcast.date | date_to_rfc822 }}</pubDate>
+            <itunes:duration>{{ podcast.duration }}</itunes:duration>
+            <enclosure url="{{ podcast.link }}" length="{{ podcast.length }}" type="{{ site.podcast.audio-type }}" />
+            <guid>{{ podcast.link }}</guid>
+        </item>
+        {% endfor %}
+
+    </channel>
+
+</rss>

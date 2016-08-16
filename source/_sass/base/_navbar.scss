@@ -1,4 +1,3 @@
-
 .menu-burger {
   position: fixed;
   z-index: 30;
@@ -24,7 +23,9 @@
     height: 2px;
     background-color: $white-color;
 
-    &::before, &:after {
+    @include transition(background-color $animation-duration - .2s);
+
+    &::before, &::after {
       /* upper and lower lines of the menu icon */
       content: '';
       position: absolute;
@@ -39,7 +40,12 @@
       -webkit-backface-visibility: hidden;
       backface-visibility: hidden;
 
-      @include transition(transform $animation-duration - .2s, width $animation-duration - .2s, top .3s);
+      @include transition(
+        transform $animation-duration - .2s,
+        width $animation-duration - .2s,
+        top .3s,
+        background-color $animation-duration - .2s
+      );
     }
 
     &::before {
@@ -68,38 +74,33 @@
     left: 0;
   }
 
-  circle {
-    /* circle border animation */
-    @include transition(stroke-dashoffset $animation-duration - .3s 0s);
-  }
-
   .navigation-is-open & {
     /* rotate trigger when navigation becomes visible */
     @include transform(rotate(180deg));
 
-    .nav-icon::after,
-    .nav-icon::before {
-      /* animate arrow --> from hamburger to arrow */
-      width: 50%;
-      @include transition(transform $animation-duration - .2s, width $animation-duration - .2s);
-    }
+    .nav-icon {
+      background-color: $primary-color;
 
-    .nav-icon::before {
-      @include transform(rotate(45deg));
-    }
+      &::after,
+      &::before {
+        /* animate arrow --> from hamburger to arrow */
+        width: 50%;
+        @include transition(transform $animation-duration - .2s, width $animation-duration - .2s);
+        background-color: $primary-color;
+      }
 
-    .nav-icon::after {
-      @include transform(rotate(-45deg));
+      &::before {
+        @include transform(rotate(45deg));
+      }
+
+      &::after {
+        @include transform(rotate(-45deg));
+      }
     }
 
     .no-touch &:hover .nav-icon::after,
     .no-touch &:hover .nav-icon::before {
       top: 0;
-    }
-
-    circle {
-      stroke-dashoffset: 0;
-      @include transition(stroke-dashoffset $animation-duration - .3s .3s);
     }
   }
 
@@ -176,7 +177,6 @@
     a {
       font-size: 1.4rem;
       text-decoration: none;
-      font-weight: $font-weight-light;
       display: inline-block;
       color: $white-color;
 
@@ -185,7 +185,7 @@
       }
 
       .no-touch &:hover {
-        color: $white-color;
+        color: darken($white-color, 10%);
       }
     }
   }
@@ -227,6 +227,6 @@ body:not(.navigation-is-open) {
 
 body.navigation-is-open {
   .menu-burger {
-    background-color: $black-color;
+    background-color: $white-color;
   }
 }

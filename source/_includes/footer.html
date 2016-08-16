@@ -1,5 +1,8 @@
 <footer class="site-footer">
   <div class="container">
+    {% if page.rss %}
+      <h3 class="feed"><a href="{{ page.rss }}">RSS</a></h3>
+    {% endif %}
     {% include social.html %}
   </div>
 </footer>

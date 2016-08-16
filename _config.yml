@@ -43,3 +43,33 @@ repo: http://github.com/18thletter/18thletter.github.io
 
 # comments
 disqus_shortname: ""
+
+podcast:
+  title: Call is now being recorded
+  link: http://18thletter.github.com/podcast
+  language: en-us
+  subtitle: Who even talks on the phone anymore?
+  author: Raymund Lew &amp; Janessa Vandenberghe
+  description: >
+    Nessa and I talk on the phone about once a week. For a while, I'd wanted to
+    record them because the conversations mean a lot to us. So, one day we just
+    did. Our conversations explore the intricacies of daily life, and we tend to
+    get out of our comfort zones. We invite you to get to know us in an organic
+    way, because we're also getting to know ourselves in the process. They are
+    as much for us as they are for you.
+  owner:
+    name: Raymund Lew
+    email: raymund.lew@gmail.com
+  image: http://18thletter.github.io/public/images/podcastimage.png
+  categories:
+    - Society &amp; Culture
+    - Religion &amp; Spirituality
+  explicit: yes
+  audio-type: audio/mpeg
+
+collections:
+  podcasts:
+    defaults:
+      values:
+        layout: post
+    output: true
