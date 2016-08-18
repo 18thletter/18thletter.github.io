@@ -5,14 +5,5 @@ bundle exec jekyll build
 # bundle exec travis-lint
 # bundle exec htmlproof ${HTML_FOLDER} --disable-external
 
-cd ${HTML_FOLDER}
-
-# config
-git config --global user.email "raymund.lew@gmail.com"
-git config --global user.name "Raymund Lew"
-
 # deploy
-git init
-git add --all
-git commit -m "Deploy to GitHub Pages"
-git push --force --quiet "https://${GH_TOKEN}@github.com/${GH_REF}" master:gh-pages
+git subtree push --prefix _site/ origin gh-pages
