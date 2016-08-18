@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Being a Software Engineer"
-permalink:  "being-a-software-engineer"
 date:   2015-10-30 10:00:00 -0800
 categories: software work
 ---
