@@ -3,8 +3,6 @@ set -e # halt script on error
 
 rm -rf _site/
 
-# make sure we can run bundle
-chruby ruby
 bundle exec jekyll build
 # bundle exec travis-lint
 # bundle exec htmlproof ${HTML_FOLDER} --disable-external
