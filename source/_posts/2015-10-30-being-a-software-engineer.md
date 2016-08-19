@@ -14,7 +14,7 @@ There seem to be a lot of posts written about how to become a software developer
 
 Choosing to do this type of work is a lifestyle choice. Sure, we’re not always head-down headphones-on deep in code, but inevitably a lot of time is going to be spent thinking about software and its design. Certainly, a lot of time is spent staring at a computer screen. Just listen to this speech by Alan Watts about following your desire.
 
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/VPCp5xsP-vk" frameborder="0" allowfullscreen></iframe></center>
+<center><iframe class="container" src="https://www.youtube.com/embed/VPCp5xsP-vk" frameborder="0" allowfullscreen></iframe></center>
 
 # Exercise.
 Bobby Fischer has said “Your body has to be in top condition. Your chess deteriorates as your body does. You can’t separate body from mind.” While programming isn’t chess, it is a taxing mental activity. Exercise energizes me, helps me maintain sanity after staring at a screen all day, gives me an excuse to shower, and enables me to sleep like a baby.
