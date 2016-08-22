@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+
+    <channel>
+        <title>Call is now being recorded</title>
+        <link>http://18thletter.github.com/podcast</link>
+        <language>en-us</language>
+        <itunes:subtitle>Who even talks on the phone anymore?</itunes:subtitle>
+        <itunes:author>Raymund Lew &amp; Janessa Vandenberghe</itunes:author>
+        <description>Nessa and I talk on the phone about once a week. For a while, I'd wanted to record them because the conversations mean a lot to us. So, one day we just did. Our conversations explore the intricacies of daily life, and we tend to get out of our comfort zones. We invite you to get to know us in an organic way, because we're also getting to know ourselves in the process. They are as much for us as they are for you.
+</description>
+        <itunes:summary>Nessa and I talk on the phone about once a week. For a while, I'd wanted to record them because the conversations mean a lot to us. So, one day we just did. Our conversations explore the intricacies of daily life, and we tend to get out of our comfort zones. We invite you to get to know us in an organic way, because we're also getting to know ourselves in the process. They are as much for us as they are for you.
+</itunes:summary>
+        <itunes:owner>
+            <itunes:name>Raymund Lew</itunes:name>
+            <itunes:email>raymund.lew@gmail.com</itunes:email>
+        </itunes:owner>
+        <itunes:image href="http://18thletter.github.io/public/images/podcastimage.png" />
+        
+          <itunes:category text="Society &amp; Culture" />
+        
+          <itunes:category text="Religion &amp; Spirituality" />
+        
+        <itunes:explicit>true</itunes:explicit>
+        <image>
+            <title>Call is now being recorded</title>
+            <link>http://18thletter.github.com/podcast</link>
+            <url>http://18thletter.github.io/public/images/podcastimage.png</url>
+        </image>
+
+        
+        <item>
+            <title>What does marriage mean?</title>
+            <link>https://www.dropbox.com/s/vwb9ko0r2467ct6/nessrayphonecall1.mp3?dl=1</link>
+            <itunes:author>Raymund Lew &amp; Janessa Vandenberghe</itunes:author>
+            <itunes:image href="http://18thletter.github.io/public/images/podcastimage.png" />
+            <itunes:subtitle>"Our phone calls aren't even going to be that long!" turned into 2.5 hours of conversation flowing from asking for help at work, becoming Bruce Lee, and trying to take the idea of marriage seriously when the concept of getting married doesn't matter to you.
+</itunes:subtitle>
+            <description>"Our phone calls aren't even going to be that long!" turned into 2.5 hours of conversation flowing from asking for help at work, becoming Bruce Lee, and trying to take the idea of marriage seriously when the concept of getting married doesn't matter to you.
+
+Podcasts we mentioned:
+The Tim Ferris Show - Joshua Waitzkin
+Tara Brach - The RAIN of Self Compassion
+This American Life - Return To The Scene Of The Crime - Act 1
+
+Books:
+Dance of Anger - Harriet Lerner
+The Five Love Languages - Gary D. Chapman
+The Celestine Prophecy - James Redfield
+7 Habits of Highly Effective People - Stephen Covey
+The Life-Changing Magic of Tidying Up - Marie Kondo
+
+Movies:
+Fireproof
+</description>
+            <itunes:summary>"Our phone calls aren't even going to be that long!" turned into 2.5 hours of conversation flowing from asking for help at work, becoming Bruce Lee, and trying to take the idea of marriage seriously when the concept of getting married doesn't matter to you.
+
+Podcasts we mentioned:
+The Tim Ferris Show - Joshua Waitzkin
+Tara Brach - The RAIN of Self Compassion
+This American Life - Return To The Scene Of The Crime - Act 1
+
+Books:
+Dance of Anger - Harriet Lerner
+The Five Love Languages - Gary D. Chapman
+The Celestine Prophecy - James Redfield
+7 Habits of Highly Effective People - Stephen Covey
+The Life-Changing Magic of Tidying Up - Marie Kondo
+
+Movies:
+Fireproof
+</itunes:summary>
+            <pubDate>Mon, 01 Feb 2016 12:00:00 -0800</pubDate>
+            <itunes:duration>9064.0</itunes:duration>
+            <enclosure url="https://www.dropbox.com/s/vwb9ko0r2467ct6/nessrayphonecall1.mp3?dl=1" length="18248725" type="audio/mpeg" />
+            <guid>https://www.dropbox.com/s/vwb9ko0r2467ct6/nessrayphonecall1.mp3?dl=1</guid>
+        </item>
+        
+        <item>
+            <title>Elaine the Guru</title>
+            <link>https://www.dropbox.com/s/mjv4djjyo1xq0rt/nessarayphone2.mp3?dl=1</link>
+            <itunes:author>Raymund Lew &amp; Janessa Vandenberghe</itunes:author>
+            <itunes:image href="http://18thletter.github.io/public/images/podcastimage.png" />
+            <itunes:subtitle>Are you just doing this to make me happy? We explore how fear drives us to a Fight or Flight response and how this impacts our communication. If you're not sure where you stand with marriage, talk to someone who doesn't believe in it.
+</itunes:subtitle>
+            <description>Are you just doing this to make me happy? We explore how fear drives us to a Fight or Flight response and how this impacts our communication. If you're not sure where you stand with marriage, talk to someone who doesn't believe in it.
+
+Podcasts we mentioned:
+Tara Brach - The RAIN of Self Compassion
+
+Books:
+The Five Love Languages - Gary D. Chapman
+</description>
+            <itunes:summary>Are you just doing this to make me happy? We explore how fear drives us to a Fight or Flight response and how this impacts our communication. If you're not sure where you stand with marriage, talk to someone who doesn't believe in it.
+
+Podcasts we mentioned:
+Tara Brach - The RAIN of Self Compassion
+
+Books:
+The Five Love Languages - Gary D. Chapman
+</itunes:summary>
+            <pubDate>Tue, 01 Mar 2016 12:00:00 -0800</pubDate>
+            <itunes:duration>3335.0</itunes:duration>
+            <enclosure url="https://www.dropbox.com/s/mjv4djjyo1xq0rt/nessarayphone2.mp3?dl=1" length="6671047" type="audio/mpeg" />
+            <guid>https://www.dropbox.com/s/mjv4djjyo1xq0rt/nessarayphone2.mp3?dl=1</guid>
+        </item>
+        
+
+    </channel>
+
+</rss>
